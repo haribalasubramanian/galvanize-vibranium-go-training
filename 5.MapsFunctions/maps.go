@@ -17,6 +17,9 @@ func CheckIfKeyExists(key string, m map[string]Employee) bool{
 	return exists
 }
 
+//main function used to be the entry pointof the go program
+// Coded by - Biswa Ranjan Behera
+//
 func main(){
 	m = make(map[string]Employee)
 

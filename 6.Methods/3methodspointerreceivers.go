@@ -15,7 +15,7 @@ func (v Values) Sum()int {
 
 
 //ModifyValues modifis the vaues-- There is a lot of difference with and without a pointer receiver
-func (v Values) ModifyValues(i int) {
+func (v *Values) ModifyValues(i int) {
 	v.A = v.A * i
 	v.B = v.B * i
 	//fmt.Println(v)

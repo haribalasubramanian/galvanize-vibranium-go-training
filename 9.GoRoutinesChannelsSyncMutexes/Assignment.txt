@@ -1,0 +1,11 @@
+1. Calculate Area and Volume of multiple shapes using interfaces.
+
+2.Create two functions With Channels
+Ping and printer
+Ping: Sends "ping" via channel
+Printer : Prints the message receivend from Ping and sleeps for 1 sec
+
+Let it execute till a enter is presses
+
+
+3. Implement Lock for a Number Decrement using sync.mutex

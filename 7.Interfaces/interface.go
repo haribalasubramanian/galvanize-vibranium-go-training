@@ -13,8 +13,13 @@ type geometry interface {
 type rect struct {
     width, height float64
 }
+
 type circle struct {
     radius float64
+}
+
+type square struct{
+    width float64
 }
 
 func (r rect) area() float64 {
@@ -40,7 +45,9 @@ func measure(g geometry) {
 func main() {
     r := rect{width: 3, height: 4}
     c := circle{radius: 5}
-
+    //s := square{width: 6}
     measure(r)
     measure(c)
+    //measure(s)
+
 }
